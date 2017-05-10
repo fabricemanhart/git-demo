@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        table {
+            background-color: yellow;
+            border-spacing: 0;
+            width: 700px;          
+        }
+
+        td {
+            padding: 25px;
+        }
+
+        tr {
+            height: 40px;
+        }
+
+        tr:nth-child(2) {
+            height: 60px;
+        }
+
+        tr:nth-child(2) > td:nth-child(1) {
+            background-color: aqua; 
+        }
+
+        tr:nth-child(2) > td:nth-child(2) {
+            background-color: green;
+            width: 500px;
+        }
+
+        tr:nth-child(2) > td:nth-child(3) {
+            background-color: cadetblue; 
+        }
+         
+    </style>
+
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td>Header</td>
+            </tr>
+            <tr>
+                <td>Nav</td>
+                <td>Content</td>
+                <td>Sidebar</td>
+            </tr>
+            <tr>
+                <td>Footer</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
